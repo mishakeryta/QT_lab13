@@ -70,5 +70,5 @@ void MainWindow::on_actionAdd_Item_changed()
 {
     DialogOfAddingNew dialogOfAddingNew;
     dialogOfAddingNew.show();
-    dialogOfAddingNew.exec();
+    dialogOfAddingNew;
 }

@@ -2,12 +2,13 @@
 #define DIALOGOFADDINGNEW_H
 #include <QLabel>
 #include <QDialog>
+#include <QWidget>
 #include "bookinfo.hpp"
 namespace Ui {
 class DialogOfAddingNew;
 }
 
-class DialogOfAddingNew : public QDialog
+class DialogOfAddingNew : public QWidget
 {
     Q_OBJECT
 
@@ -27,7 +28,6 @@ private slots:
 
     void on_lineEdit_price_textEdited(const QString &arg1);
 
-    void on_pushButton_2_clicked();
 
     void on_pushButton_Cancel_clicked();
 

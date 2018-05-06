@@ -2,7 +2,7 @@
 #include "ui_dialogofaddingnew.h"
 #include <QDebug>
 DialogOfAddingNew::DialogOfAddingNew(QWidget *parent) :
-    QDialog(parent),
+    QWidget(parent),
     ui(new Ui::DialogOfAddingNew)
 {
     ui->setupUi(this);

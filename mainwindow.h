@@ -23,7 +23,6 @@ public:
     void printListBooks(const list<BookInfo> listBooks);
 
 private slots:
-    void on_actionNew_triggered();
 
     void on_actionAdd_Item_triggered();
 
